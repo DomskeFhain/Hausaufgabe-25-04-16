@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Titel from './Titel.js';
-import TierCard from './TierCard.js';
+import Titel from './Titel';
+import TierCard from './TierCard';
+import Steckbrief from './Steckbrief';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <Titel  />
     <TierCard  />
+    <Steckbrief />
   </React.StrictMode>
 );
 

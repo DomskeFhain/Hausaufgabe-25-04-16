@@ -1,11 +1,12 @@
-
 import './App.css'
+import Ginger from './Ginger.jpg'
 
 function TierCard() {
   return (
     <div className="App">
-      <h2 className='App-Card'></h2>
-      </div>
+      <h1 className='App-Card'>Mein Hund Ginger</h1>
+      <img src={Ginger} alt="Ginger" className='Bild'/>
+    </div>
   )
 }
 

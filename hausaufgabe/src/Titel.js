@@ -5,7 +5,7 @@ function Titel() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Tierliste React</h1>
+        <h1>Steckbrief in React</h1>
       </header>
     </div>
   );
